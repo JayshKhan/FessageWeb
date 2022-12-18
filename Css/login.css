@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    font-family: 'Poppins';
+}
+
+.body {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #E5E5E5;
+    position: relative;
+    height: auto;
+}
+
+.error {
+    border: 1px solid red;
+
+    animation: shake 1s;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.info {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: auto;
+}
+
+label,
+h1 {
+    color: rgba(34, 73, 87, 1);
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    height: 111px;
+    left: 0;
+    bottom: 0;
+}
+
+input {
+    margin-top: 3px;
+    width: 300px;
+    height: 45px;
+    display: flex;
+    z-index: 3;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    margin: 0 auto;
+    max-width: 584px;
+    border-radius: 5px;
+    border-style: solid;
+    border: 0.5px solid #59FF74;
+}
+
+input:hover {
+    background-color: #bdc1c6;
+}
+
+
+/*/////////////Button///////////////////*/
+
+.custom-btn {
+    margin-top: 5px;
+    width: 307px;
+    height: 45px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+.btn {
+    background: #59FF74;
+    border: none;
+    z-index: 1;
+}
+
+.btn:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: rgba(34, 73, 87, 0.801);
+    ;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.btn:hover:after {
+    left: 0;
+    width: 100%;
+}
+
+.btn:active {
+    top: 2px;
+}
+
+
+/*POP UP*/
+
+#go {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: white;
+    border: 0;
+    background: #71c341;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: background 0.2s ease;
+    outline: none;
+}
+
+#go:hover {
+    background: #8ecf68;
+}
+
+#go:active {
+    background: #5a9f32;
+}
+
+.message {
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 300px;
+    background: white;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    font-weight: 300;
+    color: #2c2928;
+    opacity: 0;
+    transition: top 0.3s cubic-bezier(0.31, 0.25, 0.5, 1.5), opacity 0.2s ease-in-out;
+}
+
+.message .check {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(4);
+    width: 120px;
+    height: 110px;
+    background: #71c341;
+    color: white;
+    font-size: 3.8rem;
+    padding-top: 10px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: transform 0.2s 0.25s cubic-bezier(0.31, 0.25, 0.5, 1.5), opacity 0.1s 0.25s ease-in-out;
+}
+
+.message .scaledown {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.message p {
+    font-size: 1.1rem;
+    margin: 25px 0px;
+    padding: 0;
+}
+
+.message p:nth-child(2) {
+    font-size: 2.3rem;
+    margin: 40px 0px 0px 0px;
+}
+
+.message #ok {
+    position: relative;
+    color: white;
+    border: 0;
+    background: #71c341;
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    transition: background 0.2s ease;
+    outline: none;
+}
+
+.message #ok:hover {
+    background: #8ecf68;
+}
+
+.message #ok:active {
+    background: #5a9f32;
+}
+
+.comein {
+    top: 150px;
+    opacity: 1;
+}
+.signinlabel{
+    padding-bottom: 25px;
+}

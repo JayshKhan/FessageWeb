@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+	font-family: 'Poppins';
+}
+.container
+{
+	position: relative;
+	width: 1440px;
+	height: 1024px;
+	background: #59FF74;
+	color: red;
+}
+.logo
+{
+	position: absolute;
+	left: 6.46%;
+	right: 83.33%;
+	top: 7.42%;
+	bottom: 85.07%;
+}
+.sidebar_menu
+{
+	position: absolute;
+	width: 102px;
+	height: 20px;
+	left: 62px;
+	top: 100px;
+}
+.main-content
+{
+	position: absolute;
+	width: 1056px;
+	height: 976px;
+	left: 360px;
+	top: 24px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.02);
+	border-radius: 48px;
+}
+.search-wrapper
+{
+	position: absolute;
+	width: 724px;
+	height: 60px;
+	left: 428px;
+	top: 84px;
+}
+
+.user-wrapper
+{
+	
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	left: 1228px;
+	top: 100px;
+}
+.logout
+{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 1288px;
+	top: 84px;
+}
+.support
+{
+	position: absolute;
+	width: 236px;
+	height: 300px;
+	left: 32px;
+	top: 600px;
+	border-style: dotted;
+}
+.sidebar-home
+{
+	position: absolute;
+	width: 102px;
+	height: 27px;
+	left: 62px;
+	top: 288px;
+}
+.sidebar-Upload
+{
+	position: absolute;
+	width: 111px;
+	height: 27px;
+	left: 65px;
+	top: 348px;
+}
+.sidebar-Seefiles
+{
+	position: absolute;
+	width: 142px;
+	height: 27px;
+	left: 62px;
+	top: 408px;
+}
+.sidebar-Setting
+{
+	position: absolute;
+	width: 122px;
+	height: 27px;
+	left: 62px;
+	top: 469px;
+}
+.search-bar
+{
+	position: absolute;
+	width: 920px;
+	height: 60px;
+	left: 428px;
+	top: 84px;
+
+}
+.files
+{
+	position: absolute;
+	width: 920px;
+	height: 460px;
+	left: 428px;
+	top: 200px;
+
+}
+.recent-files
+{
+	position: absolute;
+	width: 920px;
+	height: 220px;
+	left: 428px;
+	top: 716px;
+}
+.loginfoot{
+	width: 100%;
+}
+.loginmain{
+	width: 100%;
+	height: 100vh;
+	display: block;
+	background-size: cover;
+	background-position: center;
+}
+.logincenter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+}
+.loginlabel{
+	text-align: center;
+}
+.loginbody{
+	background-color: #f4f4f4;
+}
+.loginmain div{
+	align-content: center;
+}
