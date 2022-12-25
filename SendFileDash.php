@@ -73,13 +73,6 @@ tr:hover {background-color: skyblue;}
   <a onclick="openUpload()" class="icon-a"><i class="fa fa-upload icons"></i> &nbsp;&nbsp;Upload Files</a>
   <a href="UserSetting.php"class="icon-a"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Settings</a>
 
-<!--   <a href="#"class="icon-a"><i class="fa fa-shopping-bag icons"></i> &nbsp;&nbsp;Orders</a>
-  <a href="#"class="icon-a"><i class="fa fa-tasks icons"></i> &nbsp;&nbsp;Inventory</a>
-  <a href="#"class="icon-a"><i class="fa fa-user icons"></i> &nbsp;&nbsp;Accounts</a>
-  <a href="#"class="icon-a"><i class="fa fa-list-alt icons"></i> &nbsp;&nbsp;Tasks</a>
-  <a href="#"class="icon-a"><i class="fa fa-bell icons"></i> &nbsp;&nbsp;Notification</a>
-  <a href="#"class="icon-a"><i class="fa fa-circle icons"></i> &nbsp;&nbsp;Icons</a>
- -->
 
 </div>
 <div id="main">

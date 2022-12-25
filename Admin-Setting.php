@@ -49,33 +49,7 @@
 </div>
     
     <div class="col-div-6">
-<!--        <input type="search-bar" name="Search" placeholder="Search"  class="fa fa-search search-icon"> -->
-        
-
-        
-<!--        <i class="fa fa-bell noti-icon"></i>-->
-<!--        <div class="notification-div">-->
-<!--            <p class="noti-head">Notification <span>--><?php //echo $N_count?><!--</span></p>-->
-<!--            <hr class="hr" />-->
-<!--            --><?php //while($iterator<$N_count)
-//                {
-//                    if($notifications[$iterator]["type"]=="1")
-//                    {
-//                        echo "<p> User Added
-//                        <span> UserName:  ".$notifications[$iterator]["name"]."  </span>
-//                        </p>";
-//                    }
-//                    else
-//                    {
-//                        echo "<p> User Deleted His Account
-//                        <span> User Removed His Account </span>
-//                        </p>";
-//                    }
-//                    $iterator=$iterator+1;
-//                } //end While Loop
-//                $iterator=0;
-//            ?>
-<!--        </div>-->
+  
     <div class="profile">
 
         <img src="Images/Userprofile.png" class="pro-img" />
@@ -97,7 +71,7 @@
         <div class="box">
             <p class="head-1">Jaysh Khan</p>
             <p class="number">Jayshkhan10@gmail.com</p>
-            <p class="percent">03161675557<!-- <i class="fa fa-long-arrow-up" aria-hidden="true"></i> 5.674% <span>Since Last Months</span> --></p>
+            <p class="percent">03161675557</p>
             <i class="fa fas fa-users box-icon"></i>
         </div>
     </div>
@@ -105,18 +79,11 @@
         <div class="box">
             <p class="head-1">Storage Used</p>
             <p class="number"><?php echo $SpaceUsed?></p>
-            <!-- <p class="percent" style="color:red!important"><i class="fa fa-long-arrow-down" aria-hidden="true"></i> 50.64% <span>Since Last Months</span></p> -->
+          
             <i class="fa fa-circle-o-notch box-icon"></i>
         </div>
     </div>
-<!--     <div class="col-div-4-1">
-        <div class="box">
-            <p class="head-1">orders</p>
-            <p class="number">35343</p>
-            <p class="percent"><i class="fa fa-long-arrow-up" aria-hidden="true"></i> 5.674% <span>Since Last Months</span></p>
-            <i class="fa fa-shopping-bag box-icon"></i>
-        </div>
-    </div> -->
+
     
     <div class="clearfix"></div>
     <br/>
@@ -150,37 +117,6 @@
                   </form>
                 
             </table>
-                <!--  <div>
-                <p>Current Password:
-                    <input name="password" type="text" id="Password" value="***********">
-                </p>
-            </div>
-            <div>
-                <p>New Password:
-                    <input name="password" type="text" id="Password">
-                </p>
-            </div>
-            <div>
-                <p>Confirm Password:
-                    <input name="password" type="text" id="Password">
-                </p>
-                <button>Change</button><br> -->
-<!-- 
-            <div class="m-box active">
-                <p>Member Profit<br/><span class="no-1">Last Months</span></p>
-                <span class="no">+2343</span>
-            </div>
-
-            <div class="m-box">
-                <p>Member Profit<br/><span class="no-1">Last Months</span></p>
-                <span class="no">+2343</span>
-            </div>
-
-            <div class="m-box">
-                <p>Member Profit<br/><span class="no-1">Last Months</span></p>
-                <span class="no">+2343</span>
-            </div>
-             -->
         </div>
     </div>
     </div>
@@ -204,73 +140,9 @@
         </div>
     </div>
     <div class="col-div-4-1">
-<!--         <div class="box-1">
-            <div class="content-box-1">
-            <p class="head-1">Acitivity <span>View All</span></p>
-            <br/>
-            <p class="act-p"><i class="fa fa-circle" ></i> Lorem Ipsum is simply dummy text of the &nbsp;&nbsp;&nbsp;&nbsp;printing and typesetting industry. </p>
-            <p class="act-p"><i class="fa fa-circle" style="color:red!important;"></i> Lorem Ipsum is simply dummy text of the &nbsp;&nbsp;&nbsp;&nbsp;printing and typesetting industry. </p>
-            <p class="act-p"><i class="fa fa-circle" style="color:green!important;"></i> Lorem Ipsum is simply dummy text of the &nbsp;&nbsp;&nbsp;&nbsp;printing and typesetting industry. </p>
-            <p class="act-p"><i class="fa fa-circle" ></i> Lorem Ipsum is simply dummy text of the &nbsp;&nbsp;&nbsp;&nbsp;printing and typesetting industry. </p>
-            
-        </div>
-    </div> -->
-    </div>
- <!--    
-    <div class="clearfix"></div>
-    <br/>
-    <div class="col-div-12">
-        <div class="box-8">
-        <div class="content-box">
-            <p>Top Selling Projects <span>Sell All</span></p>
-            <br/>
-            <table>
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-  <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  
-  
-</table>
-        </div>
-    </div>
-    </div>
 
-    
-        
-    <div class="clearfix"></div>
-</div> -->
+    </div>
+ 
 
 <?
                   include("./phpscripts/changePass.php");
@@ -321,96 +193,6 @@ $(document).ready(function(){
 });
 </script>    
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-
-
-    <div class="logo">
-        <h1>
-            <a href="Index.php"><img src="Logo fessage.png" width="145" height="79"></a>
-        </h1>
-    </div>
-    <div class="main-content">
-        <div class="Profile-info">
-            <img src="Images/Userprofile.png" alt="Profile Picture">
-            <label for="img">Upload</label>
-            <h1>Jaysh Muhammad</h1>
-            <h3>@Jkhan</h3>
-        </div>
-        <div class="storage-used">
-            <progress id="storage" value="32" max="100"> 32% </progress>
-            <label for="storage">32 % used:</label>
-            <button>Search for More Storage</button>
-        </div>
-        <div class="Userinfo-change">
-            <table>
-                <tr>
-                    <td>
-                        <div class="info-holder">
-                            <p>Email:
-                                <input name="emailadress" type="text" id="emailadress"
-                                    value="theuseremailadres@here.com">
-                            </p>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="info-holder">
-                            <p>Phone No:
-                                <input name="phoneNo" type="text" id="PhoneNo" value="0316*****57">
-                            </p>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-
-            <div class="info-holder">
-                <p>Current Password:
-                    <input name="password" type="text" id="Password" value="***********">
-                </p>
-            </div>
-            <div class="info-holder">
-                <p>New Password:
-                    <input name="password" type="text" id="Password">
-                </p>
-            </div>
-            <div class="info-holder">
-                <p>Confirm Password:
-                    <input name="password" type="text" id="Password">
-                </p>
-                <button>Change</button><br>
-                <br><button onclick="location. href = 'AdminDash.php'">Admin Home</button>
-            </div>
-
-        </div>
-    </div> -->
 </body>
 
 </html>

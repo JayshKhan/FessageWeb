@@ -74,13 +74,6 @@ tr:hover {background-color: skyblue;}
   <a onclick="openUpload()" class="icon-a"><i class="fa fa-upload icons"></i> &nbsp;&nbsp;Upload Files</a>
   <a href="UserSetting.php"class="icon-a"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Settings</a>
 
-<!--   <a href="#"class="icon-a"><i class="fa fa-shopping-bag icons"></i> &nbsp;&nbsp;Orders</a>
-  <a href="#"class="icon-a"><i class="fa fa-tasks icons"></i> &nbsp;&nbsp;Inventory</a>
-  <a href="#"class="icon-a"><i class="fa fa-user icons"></i> &nbsp;&nbsp;Accounts</a>
-  <a href="#"class="icon-a"><i class="fa fa-list-alt icons"></i> &nbsp;&nbsp;Tasks</a>
-  <a href="#"class="icon-a"><i class="fa fa-bell icons"></i> &nbsp;&nbsp;Notification</a>
-  <a href="#"class="icon-a"><i class="fa fa-circle icons"></i> &nbsp;&nbsp;Icons</a>
- -->
 
 </div>
 <div id="main">
@@ -152,20 +145,7 @@ tr:hover {background-color: skyblue;}
 	<div class="clearfix"></div>
 </div>
 
-<!-- <div class="bg-modal">
-	<div class="modal-contents">
 
-		<div class="close">+</div>
-		<img src="https://richardmiddleton.me/comic-100.png" alt="">
-
-		<form action="">
-			<input type="text" placeholder="Name">
-			<input type="email" placeholder="E-Mail">
-			<a href="#" class="button">Submit</a>
-		</form>
-
-	</div>
-</div> -->
 </div>
 <script>
 function SearchFile() {

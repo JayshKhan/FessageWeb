@@ -72,27 +72,13 @@
 							</div>
 							<div class="col-lg-4 col-md-5 d-flex align-items-stretch">
 								<div class="info-wrap bg-primary w-100 p-md-5 p-4">
-									<!-- <h3>Let's get in touch</h3> -->
-									<!-- <p class="mb-4">We're open for any suggestion or just to have a chat</p> -->
-				        	<div class="dbox w-100 d-flex align-items-start">
+									<div class="dbox w-100 d-flex align-items-start">
                             <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="dark" data-type="VERTICAL" data-vanity="jayshkhan" data-version="v1"></div>
               
-				        		<!-- <div class="icon d-flex align-items-center justify-content-center">
-				        			<span class="fa fa-map-marker"></span>
-				        		</div>
-				        		<div class="text pl-3">
-					            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
-					          </div> -->
+
 				          </div>
 				        	<div class="dbox w-100 d-flex align-items-center">
                             <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="dark" data-type="VERTICAL" data-vanity="aaraif-hanif" data-version="v1"></div>
-              
-                            <!-- <div class="icon d-flex align-items-center justify-content-center">
-				        			<span class="fa fa-phone"></span>
-				        		</div>
-				        		<div class="text pl-3">
-					            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
-					          </div> -->
 				          </div>
 				        	
 			          </div>
