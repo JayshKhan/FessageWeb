@@ -23,7 +23,10 @@ if(isset($_POST['user_name'])) {
         }
         else
         {
-            $sql="INSERT INTO `users`(`username`, `useremail`, `password`, `accounttype`, `foldername`) VALUES ('$name','$email','$password',0,'$email')";
+            echo signup($name, $email, $password);
+
+
+            // $sql="INSERT INTO `users`(`username`, `useremail`, `password`, `accounttype`, `foldername`) VALUES ('$name','$email','$password',0,'$email')";
             chdir("Users");
             //creating directory to store user profile information
             mkdir($email,0777,true);
@@ -45,4 +48,27 @@ if(isset($_POST['user_name'])) {
 
     }
 }
+
+function signup($name, $email, $password) {
+    // validate input
+    if (empty($name) || empty($email) || empty($password)) {
+      return "All fields are required";
+    }
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      return "Invalid email address";
+    }
+    if (strlen($password) < 8) {
+      return "Password must be at least 8 characters long";
+    }
+  
+    // create user in database
+    $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+    $sql = "INSERT INTO users (name, email, password) VALUES (?, ?, ?)";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("sss", $name, $email, $hashed_password);
+    $stmt->execute();
+    $stmt->close();
+  
+    return "Account created successfully";
+  }
 ?>
